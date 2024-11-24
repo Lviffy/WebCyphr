@@ -3,7 +3,7 @@
 WebCyphr-a web extension that safeguards your browsing by detecting potential threats and phishing websites while offering a unique password generator for enhanced security.
 
 <p align="center">
-  <img src="icon.png", width="600", height="600", title="webCyphr"/>
+  <img src="icon.png", width="400", height="400", title="webCyphr"/>
 </p>
 <p align="center">
   <a href="#features">Features</a> •
@@ -21,21 +21,19 @@ WebCyphr-a web extension that safeguards your browsing by detecting potential th
   <img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/RubberPirate/WebCyphr">
 </div>
 
-# Features
+# 🔒 Features of SecureMe Browser Extension
+  
+- 🛡️ Real-Time Threat Monitoring: Actively scans and blocks harmful or phishing websites while browsing.
+- 🚫 Website Blacklisting: Prevents access to a predefined list of malicious and phishing URLs.
+- 🔍 Secure Link Verifier: Allows manual input of URLs to check for potential threats using Google Safe Browsing API.
+- 🔑 Strong Password Generator: Generates customizable strong passwords with options for length, uppercase, lowercase, numbers, and special characters.
+- ⚡ Interactive Warning Pages: Displays an aesthetic, user-friendly, animated warning page when visiting blocked sites.
+- 💡 User Bypass Instructions: Provides subtle guidance on how to disable real-time scanning, ensuring informed user decisions.
+- 🎨 Mouse-Interactive Animated Background: Includes a visually engaging particle animation for warning pages, responsive to cursor movements.
+- 🌐 Always-On Protection: Continuous monitoring and blocking enabled by default, ensuring safety across all sessions.
+- 🛠️ Customizable Tools: Accessible tools for secure browsing directly from the extension popup menu.
+- 🧩 Modern UI Design: Clean, dark-themed user interface for an intuitive user experience.
 
-- 🎨 Colorscheme generated with [pywal](https://github.com/dylanaraps/pywal)
-- 💭 Intellisense, Completion, and Linting with [coc.nvim](https://github.com/neoclide/coc.nvim)
-- 🏷️ Tag management with [vista.vim](https://github.com/liuchengxu/vista.vim)
-- 🔀 Git integration with [vim-fugitive](https://github.com/tpope/vim-fugitive), [vim-gitgutter](https://github.com/airblade/vim-gitgutter) and [lazygit](https://github.com/jesseduffield/lazygit)
-- ✈️ Informative statusline and tabline with [vim-airline](https://github.com/vim-airline/vim-airline)
-- ✂️ Code snippets powered by [UltiSnips](https://github.com/sirver/UltiSnips)
-- 💡 Intelligent suggestions with [vim-tabnine](https://github.com/zxqfl/tabnine-vim)
-- 📁 Simple file browsing with [NERDTree](https://github.com/scrooloose/nerdtree)
-- 📜 Dynamic homepage with [vim-startify](https://github.com/mhinz/vim-startify)
-- 🔎 Distraction free writing with [Goyo](https://github.com/junegunn/goyo.vim)
-- 🔧 Easily configfurable to suit your needs
-- ⌨️ Common sense keybinds, so you can get right to work
-- 🧰 Assorted editing enhancements with
 
 # Installation
 
