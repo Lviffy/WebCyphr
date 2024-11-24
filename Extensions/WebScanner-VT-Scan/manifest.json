@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "WebCyphr",
+    "version": "1.0",
+    "description": "Scans URLs using VirusTotal API",
+    "permissions": [
+        "activeTab",
+        "webRequest",
+        "contextMenus",
+        "storage"
+    ],
+    "host_permissions": [
+        "https://www.virustotal.com/*"
+    ],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "small.png",
+            "48": "medium.png",
+            "128": "medium.png"
+        }
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
