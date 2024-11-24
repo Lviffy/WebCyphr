@@ -1,6 +1,5 @@
 // Google Safe Browsing API endpoint and key
-const SAFE_BROWSING_API_URL = "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=AIzaSyAMazK4-kgzSJpB1QQYrX9NyWZf1GgB8BA";
-
+const SAFE_BROWSING_API_URL = "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=<API-KEY-HERE>";
 // DOM elements
 const toggleSwitch = document.getElementById("real-time-toggle");
 const threatDetectionStatus = document.getElementById("status-text");
@@ -16,7 +15,6 @@ function updateThreatDetectionStatus() {
     ? "Monitoring active threats..."
     : "Real-Time Threat Detection is paused.";
 }
-
 // Load the switch state from storage on popup open
 document.addEventListener("DOMContentLoaded", () => {
   chrome.storage.sync.get("monitoringActive", (data) => {
@@ -26,7 +24,6 @@ document.addEventListener("DOMContentLoaded", () => {
     updateThreatDetectionStatus();
   });
 });
-
 // Listen for toggle changes and update storage
 chrome.storage.onChanged.addListener((changes) => {
   if (changes.monitoringActive) {
@@ -105,7 +102,6 @@ document.getElementById("verify-url").addEventListener("click", async () => {
     resultDiv.style.color = "red";
   }
 });
-
 // Strong Password Generator
 document.getElementById("password-generator-btn").addEventListener("click", () => {
   navigateToSection("password-generator-section");
@@ -142,7 +138,6 @@ document.getElementById("generate-password").addEventListener("click", () => {
   generatedPasswordDisplay.classList.toggle("hidden", password === "");
   copyPasswordBtn.classList.toggle("hidden", password === "");
 });
-
 // Copy generated password to clipboard
 copyPasswordBtn.addEventListener("click", () => {
   const password = generatedPasswordDisplay.textContent.replace("Generated Password: ", "");
@@ -153,21 +148,18 @@ copyPasswordBtn.addEventListener("click", () => {
     }, 1500);
   });
 });
-
 // Back button functionality
 document.querySelectorAll(".back-btn").forEach(btn => {
   btn.addEventListener("click", () => {
     navigateToSection("main-menu");
   });
 });
-
 // Section navigation function
 function navigateToSection(sectionId) {
   document.querySelectorAll(".popup-section, #main-menu").forEach(el => el.classList.add("hidden"));
     // Show the selected section
     const section = document.getElementById(sectionId);
     section.classList.remove("hidden");
-  
     // Scroll to the selected section
     section.scrollIntoView({ behavior: 'smooth' });
 }
