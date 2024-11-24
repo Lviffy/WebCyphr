@@ -37,15 +37,21 @@ WebCyphr-a web extension that safeguards your browsing by detecting potential th
 
 # Installation
 
-1.Clone the repo to get a local copy of the files. git clone https://github.com/RubberPirate/pirate-ducky.git or Download the repo
+1. Clone the repo using
+```sh
+git clone https://github.com/rubberpirate/WebCyphr
+```
 
-2.Plug the device using a converter/cable into a USB port while holding the Boot button. It will show up as a removable media device named RPI-RP2.
+2. Generate a Google Safe Browsing API Key from [Google Cloud Console](https://console.cloud.google.com) and use it in popup.js
+```sh
+"https://safebrowsing.googleapis.com/v4/threatMatches:find?key=<API-KEY-HERE>"
+```
 
-3.Copy the .uf2 file from pirate-ducky/CircuitPython (cloned files)
-pico.uf2 - Raspberry Pi Pico
-pico-w.uf2 - Raspberry Pi Pico W
+3. Then turn on the Developer Mode in your Browser and load unpacked inside `WebCyphr/Extensions/WebCyphr-main`
 
-4.Paste it to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.
+4. You can use the same method to install WebScanner also which can be used for Easy to acess Context-Menu scan
+
+5. And here you go, You have your Extensions ready 
 
 # Usage
 
