@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": { "url": "chrome-extension://hfmkideghoiedpldkblcofcahdogleab/warning.html" }
+    },
+    "condition": {
+      "urlFilter": "phishing-site.com",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
