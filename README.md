@@ -3,12 +3,8 @@
 WebCyphr-a web extension that safeguards your browsing by detecting potential threats and phishing websites while offering a unique password generator for enhanced security.
 
 <p align="center">
-  <img src="/ascii.png", width="600", height="400", title="webCyphr"/>
+  <img src="icon.png", width="600", height="600", title="webCyphr"/>
 </p>
-
-<p align="center"> 
-![Logo](images/finall icon bg.png) A Hackable, Fully Featured, Rice Friendly Neovim Configuration ![Logo](images/finall icon bg.png)</p>
-
 <p align="center">
   <a href="#features">Features</a> •
   <a href="#installation">Installation</a> •
