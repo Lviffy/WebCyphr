@@ -54,11 +54,13 @@ git clone https://github.com/rubberpirate/WebCyphr
 "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=<API-KEY-HERE>"
 ```
 
-3. Then turn on the Developer Mode in your Browser and load unpacked inside `WebCyphr/Extensions/WebCyphr-main`
+3. Generate a VirusTotal API Key from [VirusTotal Home Page](https://www.virustotal.com/) and use it for the tools that uses viruatotal api.
 
-4. You can use the same method to install WebScanner also which can be used for Easy to acess Context-Menu scan
+4. Then turn on the Developer Mode in your Browser and load unpacked inside `WebCyphr/Extensions/WebCyphr-main`
 
-5. And here you go, You have your Extensions ready 
+5. You can use the same method to install WebScanner also which can be used for Easy to acess Context-Menu scan
+
+6. And here you go, You have your Extensions ready 
 
 # Usage
 
@@ -74,8 +76,10 @@ git clone https://github.com/rubberpirate/WebCyphr
 "https://safebrowsing.googleapis.com/v4/threatMatches:find?key=<API-KEY-HERE>"
 ```
 
-3. Then turn on the Developer Mode in your Browser and load unpacked inside `WebCyphr/Extensions/WebCyphr-main`
+3. Generate a VirusTotal API Key from [VirusTotal Home Page](https://www.virustotal.com/) and use it for the tools that uses viruatotal api.
 
-4. You can use the same method to install WebScanner also which can be used for Easy to acess Context-Menu scan
+4. Then turn on the Developer Mode in your Browser and load unpacked inside `WebCyphr/Extensions/WebCyphr-main`
 
-5. And here you go, You have your Extensions ready 
+5. You can use the same method to install WebScanner also which can be used for Easy to acess Context-Menu scan
+
+6. And here you go, You have your Extensions ready 
